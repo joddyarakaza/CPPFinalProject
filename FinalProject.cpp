@@ -8,7 +8,7 @@ using namespace std;
 int main(int argc, char *argv[]) {
 	
 	ofstream outfile;
-	string itemNum = "";
+	int itemNum = 0;
 	string item = "";
 	
 	
