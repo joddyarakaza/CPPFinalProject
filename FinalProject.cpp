@@ -10,6 +10,6 @@ int main(int argc, char *argv[]) {
 	string item = "";
 	
 	
-	outfile.open("list.txt")
+	outfile.open("list.txt");
 	
 }
