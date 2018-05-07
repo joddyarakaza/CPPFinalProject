@@ -14,18 +14,18 @@ int main(int argc, char *argv[]) {
 	
 	outfile.open("list.txt");
 	
-	if(outFile.is_open()){
+	if(outfile.is_open()){
 		cout << "Enter the item name(enter -1 to quit): ";
 		cin >> item;
 		while (item != "-1"){
-			cout << "Enter the item number: ";
+			cout << "Enter how much of the item there is: ";
 			cin >> itemNum;
-			outFile << item << '#' << itemNum << endl;
+			outfile << item << '#' << itemNum << endl;
 			cout << "Enter the item name(enter -1 to quit): ";
 			cin >> item;
 												
 		}
-		outFile.close();	
+		outfile.close();	
 	}
 	else{
 		cout << "The file could not be opened" << endl;
