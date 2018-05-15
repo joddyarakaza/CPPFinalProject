@@ -16,14 +16,14 @@ int main(int argc, char *argv[]){
 		ofstream outFile;
 
 		
-		
-		cout << "enter name of the product(enter -1 to quit): ";
+		cout << "*The first letter of the product should be capitlized" << "\n" << "The amount needed should be entered as an integer*" << "\n" << "\n" << endl;
+		cout << "Enter name of the product(enter -1 to quit): ";
 		cin >> productName;
 						
 		
 		
 		while (productName != "-1"){
-			cout << "enter the amount wanted of the product: ";
+			cout << "Enter the amount wanted of the product: ";
 			cin >> productAvailbe;
 
 			inFile.open("list.txt");
@@ -44,7 +44,7 @@ int main(int argc, char *argv[]){
 						geek >> testVar;
 						if (testVar >= productAvailbe){
 							cout << prodName << " are available in this amount: " << prodAvailbe << endl;
-							//testVar -= productAvailbe;
+							testVar -= productAvailbe;
 							
 						}
 						else{
@@ -79,9 +79,9 @@ int main(int argc, char *argv[]){
 			//close the file 
 			inFile.close();
 
-			cout << "enter name of the product(enter -1 to quit) :";
+			cout << "Enter name of the product(enter -1 to quit) :";
 			cin >> productName;
-			cout << "enter the amount wanted of the product :";
+			cout << "Enter the amount wanted of the product :";
 			cin >> productAvailbe;
 		}
 }
