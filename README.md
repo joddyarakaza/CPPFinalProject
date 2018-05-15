@@ -6,7 +6,7 @@
 # SYNOPSIS
 
 #our code will help stores that have a online website to have inventory of the products the store has and so that 
-cutomoers can order things online and how many there are in stock for deleiery.
+cutomoers can order things online and how many there are in stock for delivery.
 
 
 # CODE EXAMPLE	
@@ -24,7 +24,7 @@ cutomoers can order things online and how many there are in stock for deleiery.
 
 # MOTIVATION
 #the motivation for this project is to help stores have stock on there shelfs and help customers 
-#know if there item is avalible in stores.
+know if there item is avalible in stores.
 
 
 # INSTALLATION
