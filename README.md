@@ -5,7 +5,7 @@
 
 # SYNOPSIS
 
-#our code will help stores that have a online website to have inventory of the products the store has and so that 
+our code will help stores that have a online website to have inventory of the products the store has and so that 
 cutomoers can order things online and how many there are in stock for delivery.
 
 
@@ -23,12 +23,12 @@ cutomoers can order things online and how many there are in stock for delivery.
 
 
 # MOTIVATION
-#the motivation for this project is to help stores have stock on there shelfs and help customers 
+the motivation for this project is to help stores have stock on there shelfs and help customers 
 know if there item is avalible in stores.
 
 
 # INSTALLATION
-#The file that they need to run in order for the code to work (list.text)
+The file that they need to run in order for the code to work (list.text)
 
 
 
