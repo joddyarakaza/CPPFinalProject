@@ -1,52 +1,33 @@
 
 #include <iostream>
-#include <fstream>
 #include <string>
+#include <fstream>
 
+					
 using namespace std;
-int main(int argc, char *argv[]){
+ int main(int argc, char *argv[]) {
 	
-		string productName = "";
-		string productAvailbe = "";
+ 	ofstream outfile;
+	int itemNum = 0;
+	string item = "";
 		
-		
-		cout << "enter name of the product(enter -1 to quit) :";
-		cin >> productName;
-		cout << "enter the amount wanted of the product :";
-		cin >> productAvailbe;
-		
-		ifstream inFile;
-		
-		inFile .open("list.txt" , ios:: in);
-		
-		while (productName != "-1")
-			if (inFile.is_open())
-			
-				
-				while (!inFile.eof()){
-					string prodName = "";
-					string prodAvailbe = "";
-					getline(inFile, prodName, '#');
-					getline(inFile, prodAvailbe);
-					if (prodName == productName ){ 
-						cout << prodName << endl;
-						if (prodAvailbe == productAvailbe){
-							cout << prodAvailbe << endl; 
-							}
-						}
-				cout << "enter name of the product(enter -1 to quit) :";
-				cin >> productName;
-				cout << "enter the amount wanted of the product :";
-				cin >> productAvailbe;		
-				}
+	outfile.open("list.txt");
+ 	
+ 	if(outfile.is_open()){
+		cout << "Enter the item name(enter -1 to quit): ";
+		cin >> item;
+		while (item != "-1"){
+			cout << "Enter how much of the item there is: ";
+			cin >> itemNum;
+			outfile << item << '#' << itemNum << endl;
+			cout << "Enter the item name(enter -1 to quit): ";
+			cin >> item;
+			}
+			outfile.close();	
+	}
+	else{
+		cout << "The file could not be opened" << endl;
+	}
 				
 				
-				//close the file 
-				inFile.close();
-				}
-		
-		
-
-				
-			
-
+}
