@@ -12,6 +12,8 @@ using namespace std;
 	string item = "";
 		
 	outfile.open("list.txt");
+	
+	cout << "*The first letter of the product should be capitlized" << "\n" << "The amount needed should be entered as an integer*" << "\n" << "\n" << endl;
  	
  	if(outfile.is_open()){
 		cout << "Enter the item name(enter -1 to quit): ";
