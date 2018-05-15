@@ -12,17 +12,20 @@ int main(int argc, char *argv[]){
 		int productAvailbe = 0;
 		bool isFound = false;
 		
+		ifstream inFile;
+		ofstream outFile;
+
+		
 		
 		cout << "enter name of the product(enter -1 to quit): ";
 		cin >> productName;
-		cout << "enter the amount wanted of the product: ";
-		cin >> productAvailbe;
-		
-		ifstream inFile;
-		
+						
 		
 		
 		while (productName != "-1"){
+			cout << "enter the amount wanted of the product: ";
+			cin >> productAvailbe;
+
 			inFile.open("list.txt");
 			
 			if (inFile.is_open()){
@@ -41,13 +44,25 @@ int main(int argc, char *argv[]){
 						geek >> testVar;
 						if (testVar >= productAvailbe){
 							cout << prodName << " are available in this amount: " << prodAvailbe << endl;
+							//testVar -= productAvailbe;
 							
 						}
 						else{
 							cout << "There isn't enough of the product available" << endl;
 						}
-						string temp = "";
-						inFile >> temp
+						/*string temp = "";
+						inFile >> temp;
+						int prod = temp.find(prodName, 0);
+						int avail = temp.find("#", prod);
+						
+						string result;
+						ostringstream convert;
+						convert << testVar;
+						result = convert.str();
+						cout << result << endl;
+						temp.replace(avail + 1, prodAvailbe.length(), result);
+						outFile << temp;
+						*/
 					}
 							
 				}
