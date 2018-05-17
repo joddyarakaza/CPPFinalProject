@@ -26,7 +26,7 @@ From manager point of view:
 <p><img src="example.png" /></p>
 
 From user's point of view:
-<p><img src="Usejr.png" /></p>
+<p><img src="User.png" /></p>
 
 # MOTIVATION
 The motivation for this project is to help stores have stock on there shelfs and help customers 
