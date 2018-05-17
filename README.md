@@ -6,7 +6,7 @@
 # SYNOPSIS
 
 Our code will help stores that have a online website to have inventory of the products the store has and so that 
-cutomoers can order things online and how many there are in stock for delivery.
+cutomers can order things online and how many there are in stock for delivery.
 
 
 # CODE EXAMPLE	
