@@ -10,16 +10,19 @@ cutomers can order things online and how many there are in stock for delivery.
 
 
 # CODE EXAMPLE	
+We had to learn to convert a string into a integer.
+```
+stringstream geek(prodAvailbe);
+int testVar = 0;
+geek >> testVar;
+if (testVar >= productAvailbe){
+	cout << prodName << " are available in this amount: " << prodAvailbe << endl;
+}
+```
 
-        stringstream geek(prodAvailbe);
-		int testVar = 0;
-		geek >> testVar;
-		if (testVar >= productAvailbe){
-		cout << prodName << " are available in this amount: " << prodAvailbe << endl;
-	//testVar -= productAvailbe;
-							
-             {prodAvalible was in the string so we had to convert into a varible}
-						
+
+# RUN EXAMPLE 
+<img src="example.png" />
 
 
 # MOTIVATION
