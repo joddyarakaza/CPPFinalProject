@@ -23,10 +23,10 @@ if (testVar >= productAvailbe){
 
 # RUN EXAMPLE 
 From manager point of view:
-<img src="example.png" />
+<p><img src="example.png" /></p>
 
 From user's point of view:
-<img src="User.png" />
+<p><img src="User.png" /></p>
 
 # MOTIVATION
 The motivation for this project is to help stores have stock on there shelfs and help customers 
