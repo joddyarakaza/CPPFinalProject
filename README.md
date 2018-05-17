@@ -22,8 +22,11 @@ if (testVar >= productAvailbe){
 
 
 # RUN EXAMPLE 
+From manager point of view:
 <img src="example.png" />
 
+From user's point of view:
+<img src="User.png" />
 
 # MOTIVATION
 the motivation for this project is to help stores have stock on there shelfs and help customers 
