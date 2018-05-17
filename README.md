@@ -29,7 +29,7 @@ From user's point of view:
 <img src="User.png" />
 
 # MOTIVATION
-the motivation for this project is to help stores have stock on there shelfs and help customers 
+The motivation for this project is to help stores have stock on there shelfs and help customers 
 know if there item is avalible in stores.
 
 
